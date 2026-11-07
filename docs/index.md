@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Welcome to the course
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Test page
 
 ## Commands
 
