@@ -10,3 +10,13 @@
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Figures
+
+<figure class="course-figure">
+    <img src="./images/projet_etudiant.svg"
+         alt="Structure d'une trame UART">
+    <figcaption>
+        Figure 1 — Structure d'une trame UART.
+    </figcaption>
+</figure>
