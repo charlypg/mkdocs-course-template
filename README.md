@@ -1,2 +1,3 @@
-# mkdocs-course-template
-A personnal Mkdocs template for courses.
+# MkDocs course template
+
+A personnal MkDocs template for courses.
