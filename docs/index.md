@@ -15,8 +15,8 @@
 
 <figure class="course-figure">
     <img src="./images/projet_etudiant.svg"
-         alt="Structure d'une trame UART">
+         alt="Un projet étudiant sympa.">
     <figcaption>
-        Figure 1 — Structure d'une trame UART.
+        Figure 1 — Un projet étudiant sympa.
     </figcaption>
 </figure>
