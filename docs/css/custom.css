@@ -1,3 +1,42 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.7;
+    /* counter-reset: section; */
+}
+
+h1 {
+    font-size: 2em;
+    counter-reset: subsection;
+}
+
+/*h1::before {
+    counter-increment: section;
+    content: counter(section) ". ";
+}*/
+
+h2 {
+    font-size: 1.5em;
+    counter-reset: subsubsection;
+}
+
+h2::before {
+    counter-increment: subsection;
+    content: counter(subsection) ". "; /* counter(section) "." counter(subsection) ". "; */
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h3::before {
+    counter-increment: subsubsection;
+    content: counter(subsection) ". " counter(subsubsection) ". ";
+}
+
 .course-figure {
     text-align: center;
     margin: 2em auto;
@@ -16,4 +55,27 @@
     font-size: 0.9em;
     color: #000000;
     font-style: italic;
+}
+
+/* Bloc de définition */
+.definition {
+    margin: 1.5em 0;
+    border: 1px solid #2c6eaa;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #f4f8fc;
+}
+
+/* Titre du bloc */
+.definition-title {
+    background-color: #2c6eaa;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+/* Contenu du bloc */
+.definition-content {
+    padding: 15px;
 }
